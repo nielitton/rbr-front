@@ -80,11 +80,11 @@ function EmployeeForm() {
                 </FormErrorMessage>
             </FormControl>
             <FormControl  isInvalid={ !!errors.actions }>
-                <FormLabel fontSize={12}>Nome do funcionário:</FormLabel>
+                <FormLabel fontSize={12}>Ações:</FormLabel>
                 <Input 
                     id="actions"
                     {...register("actions")}
-                    placeholder="Actons"
+                    placeholder="Ações"
                 />
                 <FormErrorMessage fontSize={12}>
                     { errors.actions && errors.actions.message }
