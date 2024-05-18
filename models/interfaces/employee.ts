@@ -1,6 +1,7 @@
 export interface IEmployees {
+    _id?: string;
     name: string;
     charge: string;
-    actions: string;
+    admissionDate: string;
     department: string;
 }
